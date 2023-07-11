@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomSheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    >
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/bottomSheetHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Bottom Sheet Header"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textColor="@android:color/black" />
+
+    <!-- Content -->
+    <TextView
+        android:id="@+id/bottomSheetContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Bottom Sheet Content"
+        android:textColor="@android:color/black" />
+
+    <!-- Action Button -->
+    <Button
+        android:id="@+id/bottomSheetButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Action"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent" />
+
+</LinearLayout>
